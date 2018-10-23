@@ -37,3 +37,8 @@ npm run test
 # Lints and fixes files
 npm run lint
 ```
+
+## License
+[MIT](https://raw.githubusercontent.com/Adoratorio/adoratorio-summer-club/master/LICENSE)
+
+Copyright (c) Adoratorio Studio.
