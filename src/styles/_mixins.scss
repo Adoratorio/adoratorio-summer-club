@@ -1,0 +1,180 @@
+/* Generic
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@function z-index($level: 'base') {
+  @return map-get($layers, $level);
+}
+
+
+/* Elements
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@mixin boost-performance ($translate: true) {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+
+  @if ($translate) {
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+  }
+}
+
+@mixin ir($image-url, $context: false) {
+  width: image-width($image-url);
+  height: image-height($image-url);
+  background: image-url($image-url) no-repeat 0 0;
+  background-size: 100% auto;
+}
+
+@mixin aspect-ratio($width, $height) {
+// position: relative;
+  &:before{
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+}
+
+@mixin img-responsive($display: block) {
+  display: $display;
+  max-width: 100%;
+  height: auto;
+}
+
+@mixin aspect-ratio($width, $height) {
+// position: relative;
+  &:before{
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin classed-headings($headings...) {
+  @if length($headings) == 0 {
+    $headings: map-keys($font-sizes-headings);
+  }
+
+  $selectors: ();
+
+  @each $i in $headings {
+    $current-heading: nth($headings, $i);
+    $selector: unquote("h#{$current-heading}, .h#{$current-heading}");
+    $selectors: append($selectors, $selector, comma);
+  }
+
+  #{$selectors} {
+    @content;
+  }
+}
+
+@mixin triangle($color: $color-dark, $size: '5px', $direction: 'up') {
+  width: 0;
+  height: 0;
+
+  @if $direction == 'up' {
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+    border-left: $size solid transparent;
+  }
+  @if $direction == 'down' {
+    border-top: $size solid $color;
+    border-right: $size solid transparent;
+    border-left: $size solid transparent;
+  }
+  @if $direction == 'right' {
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: $size solid $color;
+  }
+  @if $direction == 'left' {
+    border-top: $size solid transparent;
+    border-right: $size solid $color;
+    border-bottom: $size solid transparent;
+  }
+}
+
+
+/* Typography
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@function em($pixels, $context: $font-size-default) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return #{$pixels / $context}em;
+}
+
+@function rem($pixels) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @return #{$pixels / $font-size-default}rem;
+}
+
+@function font-size($size, $rem: true) {
+  $result: $size;
+  @if map-has-key($font-sizes, $size) {
+    $result: map-get($font-sizes, $size);
+  }
+
+  @if $rem == true {
+    @return rem($result);
+  }
+
+  @return $result;
+}
+
+@function line-height($size, $context: m) {
+  $context-size: font-size($context, false);
+  @return em($size, $context-size);
+}
+
+@mixin text-ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@mixin reset-typography($font-weight: normal, $line-height: inherit) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: $font-size-default;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}

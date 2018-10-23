@@ -1,0 +1,80 @@
+[
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>NOPE</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Adoratorio</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.0",
+          "posOut": "+=0.4",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Summer</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Club</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  }
+]

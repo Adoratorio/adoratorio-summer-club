@@ -1,0 +1,45 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+  Utilities - Visibility Helpers
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.u-visuallyhidden {
+  @include visually-hidden;
+
+  .focusable {
+    &:active,
+    &:focus {
+      position: static;
+      overflow: visible;
+      clip: auto;
+      width: auto;
+      height: auto;
+      margin: 0;
+    }
+  }
+}
+
+@each $mq-key, $mq-value in $mq-breakpoints {
+  @include mq($mq-key) {
+    .u-hidden--from-#{$mq-key} {
+      display: none !important;
+      visibility: hidden;
+      margin: 0 !important;
+    }
+  }
+
+  @include mq($until: $mq-key) {
+    .u-hidden--until-#{$mq-key} {
+      display: none !important;
+      visibility: hidden;
+    }
+  }
+}
+
+%flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.u-text-uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+// base colors
+$color-white: #ffffff;
+$color-black: #090909;
+$color-light: #F5F5F5;
+$color-dark: #151515;
+
+
+$color-primary: #FF5829;
+$color-accent: $color-white;
+$color-secondary: $color-dark;
+
+// colors by function
+$color-title: $color-black;
+$color-text: $color-white;
+$color-bg: #000000;
+
+$color-link: $color-text;
+$color-link-hover: $color-primary;
+
+$color-border: $color-dark;
+$color-text-selection: $color-accent;
+
+
+// status colors
+$color-notice: yellow;
+$color-error: #F44336;
+$color-success: green;

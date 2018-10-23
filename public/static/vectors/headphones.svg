@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final_desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_Headphones" transform="translate(-667.000000, -371.000000)">
+            <g id="Group" transform="translate(523.000000, 371.000000)">
+                <g id="icon" transform="translate(144.000000, 0.000000)">
+                    <circle id="Oval-2" fill="#FFFFFF" opacity="0.05" cx="53" cy="53" r="53"></circle>
+                    <circle id="Oval-2" fill="#FFFFFF" opacity="0.1" cx="53" cy="53" r="43"></circle>
+                    <circle id="Oval-2" stroke="#FFFFFF" stroke-width="2" fill="#151515" cx="53" cy="53" r="34"></circle>
+                    <path d="M68,56.7777778 L68,61.1111111 C68,62.7 66.65,64 65,64 L60.5,64 L60.5,53.8888889 L63.5,53.8888889 L63.5,51 C63.5,45.3666667 58.85,40.8888889 53,40.8888889 C47.15,40.8888889 42.5,45.3666667 42.5,51 L42.5,53.8888889 L45.5,53.8888889 L45.5,64 L41,64 C39.35,64 38,62.7 38,61.1111111 L38,56.7777778 C38,55.7666667 38.6,54.7555556 39.5,54.3222222 L39.5,51 C39.5,43.7777778 45.5,38 53,38 C60.5,38 66.5,43.7777778 66.5,51 L66.5,54.3222222 C67.4,54.7555556 68,55.7666667 68,56.7777778 Z" id="Shape" fill="#FF5829" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

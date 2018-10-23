@@ -1,0 +1,35 @@
+{
+  "name": "website-summer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "hammerjs": "^2.0.8",
+    "howler": "^2.0.15",
+    "lodash": "^4.17.11",
+    "orbit-controls-es6": "^1.0.12",
+    "register-service-worker": "^1.5.2",
+    "sass-mq": "^5.0.0",
+    "socket.io-client": "^2.1.1",
+    "three": "^0.95.0",
+    "three-obj-loader": "^1.1.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-plugin-pwa": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.10",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "summer",
+    "src": "/static/sounds/fx/summer.mp3"
+  },
+  {
+    "id": "so",
+    "src": "/static/sounds/fx/so.mp3"
+  },
+  {
+    "id": "santa",
+    "src": "/static/sounds/fx/santa.mp3"
+  },
+  {
+    "id": "wait",
+    "src": "/static/sounds/fx/wait.mp3"
+  },
+  {
+    "id": "drama",
+    "src": "/static/sounds/fx/drama.mp3"
+  },
+  {
+    "id": "are",
+    "src": "/static/sounds/fx/are.mp3"
+  },
+  {
+    "id": "mama",
+    "src": "/static/sounds/fx/mama.mp3"
+  },
+  {
+    "id": "drink",
+    "src": "/static/sounds/fx/drink.mp3"
+  },
+  {
+    "id": "beach",
+    "src": "/static/sounds/fx/beach.mp3"
+  },
+  {
+    "id": "get",
+    "src": "/static/sounds/fx/get_and_sleep.mp3"
+  },
+  {
+    "id": "sleep",
+    "src": "/static/sounds/fx/get_and_sleep.mp3"
+  },
+  {
+    "id": "beat",
+    "src": "/static/sounds/fx/beat.mp3"
+  },
+  {
+    "id": "priests",
+    "src": "/static/sounds/fx/priests.mp3"
+  },
+  {
+    "id": "follow",
+    "src": "/static/sounds/fx/follow.mp3"
+  },
+  {
+    "id": "sound",
+    "src": "/static/sounds/fx/sound.mp3"
+  },
+  {
+    "id": "background",
+    "src": "/static/sounds/fx/background.mp3"
+  },
+  {
+    "id": "hub",
+    "src": "/static/sounds/fx/hub.mp3"
+  },
+  {
+    "id": "bug",
+    "src": "/static/sounds/fx/bug.mp3"
+  },
+  {
+    "id": "hear",
+    "src": "/static/sounds/fx/hear.mp3"
+  },
+  {
+    "id": "loud",
+    "src": "/static/sounds/fx/loud.mp3"
+  },
+  {
+    "id": "pink",
+    "src": "/static/sounds/fx/pink.mp3"
+  },
+  {
+    "id": "sprinkle",
+    "src": "/static/sounds/fx/sprinkle.mp3"
+  },
+  {
+    "id": "donuts",
+    "src": "/static/sounds/fx/donuts.mp3"
+  },
+  {
+    "id": "banana",
+    "src": "/static/sounds/fx/banana.mp3"
+  },
+  {
+    "id": "b",
+    "src": "/static/sounds/fx/b.mp3"
+  },
+  {
+    "id": "ana",
+    "src": "/static/sounds/fx/ana.mp3"
+  },
+  {
+    "id": "sun",
+    "src": "/static/sounds/fx/sun.mp3"
+  },
+  {
+    "id": "drug",
+    "src": "/static/sounds/fx/drug.mp3"
+  },
+  {
+    "id": "drops",
+    "src": "/static/sounds/fx/drops.mp3"
+  },
+  {
+    "id": "unstoppable",
+    "src": "/static/sounds/fx/unstoppable.mp3"
+  },
+  {
+    "id": "alligator",
+    "src": "/static/sounds/fx/alligator.mp3"
+  },
+  {
+    "id": "waiter",
+    "src": "/static/sounds/fx/waiter.mp3"
+  },
+  {
+    "id": "old",
+    "src": "/static/sounds/fx/old.mp3"
+  },
+  {
+    "id": "we_re",
+    "src": "/static/sounds/fx/we_re.mp3"
+  },
+  {
+    "id": "state",
+    "src": "/static/sounds/fx/state.mp3"
+  },
+  {
+    "id": "mind",
+    "src": "/static/sounds/fx/mind.mp3"
+  },
+  {
+    "id": "club",
+    "src": "/static/sounds/fx/club.mp3"
+  },
+  {
+    "id": "kind",
+    "src": "/static/sounds/fx/kind.mp3"
+  },
+  {
+    "id": "so",
+    "src": "/static/sounds/fx/so.mp3"
+  },
+  {
+    "id": "thats",
+    "src": "/static/sounds/fx/thats.mp3"
+  },
+  {
+    "id": "until",
+    "src": "/static/sounds/fx/until.mp3"
+  },
+  {
+    "id": "error",
+    "src": "/static/sounds/fx/error_buzz.mp3"
+  },
+  {
+    "id": "lose",
+    "src": "/static/sounds/fx/you_lose.mp3"
+  },
+  {
+    "id": "win",
+    "src": "/static/sounds/fx/you_win.mp3"
+  },
+  {
+    "id": "win-2",
+    "src": "/static/sounds/fx/you_win-2.mp3"
+  }, {
+    "id": "game-over",
+    "src": "/static/sounds/fx/game-over.mp3"
+  }
+]

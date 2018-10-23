@@ -1,0 +1,2624 @@
+[
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromCenter",
+        "duration": 0.5,
+        "pos": "+=0"
+      },
+      {
+        "name": "zoomIn",
+        "duration": 0.5,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts": [
+      {
+        "nodes": "<div><span>T</span><span>h</span><span>i</span><span>n</span><span>k </span></div><div><span>w</span><span>e’</span><span>r</span><span>e </span></div><div><span>l</span><span>a</span><span>t</span><span>e, </span></div><div><span>m</span><span>a</span><span>t</span><span>e?</span></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.25",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#cccccc"]
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>NOPE</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.55",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Adoratorio</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Summer</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Club</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=1",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>is</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.0",
+          "posOut": "+=0.4",
+          "color": "#000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>starting</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>NOW.</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r </span></bdi></div><div><span>i</span><span>s</span><span>n</span><span>’</span><span>t</span></div><div><span>o</span><span>v</span><span>e</span><span>r</span></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.55",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#CCCCCC"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "summer",
+        "pos": "+=0.1"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>U</span><span>n</span><span>t</span><span>i</span><span>l </span></div><div><span>w</span><span>e </span></div><div><span>s</span><span>a</span><span>y </span></div><div><bdi><span>S</span><span>O!</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#ffffff",
+          "bgColor": ["transparent"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "so",
+        "pos": "+=0.55"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>S</span><span>a</span><span>n</span><span>t</span><span>a </span></bdi></div><div><span>c</span><span>a</span><span>n </span></div><div><bdi><span>w</span><span>a</span><span>i</span><span>t</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#CCCCCC"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "santa",
+        "pos": "+=0.2"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "wait",
+        "pos": "+=0.55"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Or</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.0",
+          "posOut": "+=0.3",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>maybe</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.3",
+          "posOut": "+=0.6",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>not?</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Fast</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>or</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>fab</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>T</span><span>h</span><span>a</span><span>t</span><span>’</span><span>s </span></bdi></div><div><span>a </span></div><div><bdi><span>D</span><span>R</span><span>A</span><span>M</span><span>A</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#000000",
+          "bgColor": ["#ffffff"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "#ffffff",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "drama",
+        "pos": "+=0.2"
+      },
+      {
+        "colorStart": "#ffffff",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "drama",
+        "pos": "+=0.5"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Faster</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>faster</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>faster</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>A</span><span>r</span><span>e </span></bdi></div><div><span>y</span><span>o</span><span>u </span></div><div><span>g</span><span>o</span><span>n</span><span>n</span><span>a</span></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.3",
+          "color": "#000000",
+          "bgColor": ["#ffffff"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "are",
+        "pos": "+=0.1"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0.1",
+        "bgColor": "#ffffff"
+      },
+      {
+        "name": "recolorFromCenter",
+        "duration": 1,
+        "pos": "+=0.4"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>c</span><span>a</span><span>l</span><span>l </span></bdi></div><div><span>y</span><span>o </span></div><div><bdi><span>m</span><span>a</span><span>m</span><span>a?</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#ffffff",
+          "bgColor": ["#000000"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "left",
+        "sound": "mama",
+        "pos": "+=0.2"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "mama",
+        "pos": "+=0.55"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromCenter",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>F</span><span>a</span><span>s</span><span>t</span><span>,</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>m</span><span>a</span><span>t</span><span>e</span><span>:</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "#1b1b1b",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>w</span><span>o</span><span>n’</span><span>t</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.9",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "#2c2c2c",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>c</span><span>h</span><span>e</span><span>a</span><span>t</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=1.35",
+          "posOut": "+=1.8",
+          "color": "#ffffff",
+          "bgColor": "#353535",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<div><span>p</span><span>i</span><span>c</span><span>k </span></div><div><span>y</span><span>o </span></div><div><bdi><span>d</span><span>r</span><span>i</span><span>n</span><span>k</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=1.8",
+          "posOut": "+=3.4",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#CCCCCC"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "drink",
+        "pos": "+=2.3"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Hey</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>wow</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>h</span><span>i</span><span>t </span></div><div><span>t</span><span>h</span><span>e </span></div><div><bdi><span>B</span><span>E</span><span>A</span><span>C</span><span>H</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#CCCCCC"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "beach",
+        "pos": "+=0.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>G</span><span>E</span><span>T </span></bdi></div><div><span>N</span><span>O </span></div><div><bdi><span>S</span><span>L</span><span>E</span><span>E</span><span>P</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=2",
+          "color": "#000000",
+          "bgColor": ["transparent", "transparent", "transparent", "transparent"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "get",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "sleep",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>T</span><span>h</span><span>a</span><span>t</span><span>’</span><span>s </span></div><div><span>o</span><span>u</span><span>r </span></div><div><bdi><span>B</span><span>e</span><span>a</span><span>t.</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#000000",
+          "bgColor": ["#ffffff"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "beat",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Hype-Beast</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>F</span><span>a</span><span>r-e</span><span>a</span><span>s</span><span>t</span></div>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<div><span>L</span><span>O</span><span>V</span><span>E</span></div>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "#1b1b1b",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<div><span>f</span><span>e</span><span>a</span><span>s</span><span>t</span></div>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.9",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "#2c2c2c",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>We’re</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>a bunch of</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l </span></bdi></div><div><span>h</span><span>i</span><span>g</span><span>h </span></div><div><bdi><span>p</span><span>r</span><span>i</span><span>e</span><span>s</span><span>t</span><span>s</span><span>.</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#ffffff",
+          "bgColor": ["transparent", "transparent", "transparent", "transparent"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "#000000",
+        "colorEnd": "#ffffff",
+        "position": "left",
+        "sound": "kind",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "#000000",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "priests",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>F</span><span>o</span><span>l</span><span>l</span><span>o</span><span>w </span></bdi></div><div><span>t</span><span>h</span><span>e </span></div><div><bdi><span>s</span><span>o</span><span>u</span><span>n</span><span>d</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#000000",
+          "bgColor": ["transparent", "transparent", "transparent", "transparent"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "#ffffff",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "follow",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "#ffffff",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "sound",
+        "pos": "+=0.5"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Bassetthound</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Battle ground.</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>Who’s better?</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMSMALL",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>W</span><span>i</span><span>n. </span></div><div><span>N</span><span>o </span></div><div><bdi><span>b</span><span>a</span><span>c</span><span>k</span><span>g</span><span>r</span><span>o</span><span>u</span><span>n</span><span>d.</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.6",
+          "color": "#ffffff",
+          "bgColor": ["#000000"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "background",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>Get</span></div><div><span>in</span><span>to</span></div><div><span>our</span></div><div><bdi><span>h</span><span>u</span><span>b</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroupZoom",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.6",
+          "color": "#ffffff",
+          "bgColor": ["#000000"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "hub",
+        "pos": "+=0.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>T</span><span>h</span><span>a</span><span>t</span><span>’</span><span>s</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>n</span><span>o</span><span>t</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "#1b1b1b",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>a</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.9",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "#2c2c2c",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>j</span><span>u</span><span>g</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=1.35",
+          "posOut": "+=1.8",
+          "color": "#ffffff",
+          "bgColor": "#353535",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>W</span><span>A</span><span>I</span><span>T</span><span>.</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>The</span><span>re</span><span>’s</span></div><div><span>a</span></div><div><bdi><span>BUG</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.85",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "Unplug!",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateX",
+          "out": "removeNode",
+          "posIn": "+=1.85",
+          "posOut": "+=2.4",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scaleInit": 1,
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "bug",
+        "pos": "+=0.65"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>That’s</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "MASK",
+          "in": "staggerIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.5",
+          "color": "#000000",
+          "bgColor": "transparent"
+        }
+      },
+      {
+        "nodes": "<span>a</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.5",
+          "posOut": "+=1",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>crowd</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=1",
+          "posOut": "+=1.5",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0.1",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>H</span><span>e</span><span>a</span><span>r</span></div></bdi><div><span>u</span><span>s</span></div><div><span>s</span><span>c</span><span>r</span><span>e</span><span>a</span><span>m</span><span>i</span><span>n</span><span>g</span></div><div><bdi><span>l</span><span>o</span><span>u</span><span>d?</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.7",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#cccccc"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "hear",
+        "pos": "+=0.2"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "loud",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Till</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "MASK",
+          "in": "staggerIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.5",
+          "color": "#FFFFFF",
+          "bgColor": "transparent"
+        }
+      },
+      {
+        "nodes": "<span>the</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.5",
+          "posOut": "+=1",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>clouds!</span>",
+        "type": "text--column",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=1",
+          "posOut": "+=1.5",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>P</span><span>i</span><span>n</span><span>k</span></bdi></div><div><span>F</span><span>l</span><span>a</span><span>m</span><span>i</span><span>n</span><span>g</span><span>o</span></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.1",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "pink",
+        "pos": "+=0.1"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Win</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>the</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Bing</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>ding</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Bing</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Dingo</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "stomp",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#FFFFFF",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>S</span><span>a</span><span>n</span><span>d</span><span>,</span></div><div><span>p</span><span>e</span><span>b</span><span>b</span><span>l</span><span>e,</span></div><div><bdi><span>s</span><span>p</span><span>r</span><span>i</span><span>n</span><span>k</span><span>l</span><span>e</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "MASK",
+          "in": "staggerIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.5",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill" : [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "sprinkle",
+        "pos": "+=0.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Donut</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>M</span><span>a</span><span>d</span><span>o</span><span>n</span><span>u</span><span>t</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>M</span><span>y</span></div><div><bdi><span>D</span><span>o</span><span>n</span><span>u</span><span>t</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroupZoom",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "donuts",
+        "pos": "+=0.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>A</span><span>n</span><span>d</span></div><div><span>t</span><span>h</span><span>e</span><span>n</span><span>?</span></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>S</span><span>e</span><span>a</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.6",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>B</span><span>a</span><span>n</span><span>a</span><span>n</span><span>a</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.6",
+          "posOut": "+=1.2",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<div><span>B</span></div><div><span>f</span><span>o</span><span>r</span></div><div><bdi><span>B</span><span>A</span><span>N</span><span>A</span><span>N</span><span>A</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=1.2",
+          "posOut": "+=2.6",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill" : [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "banana",
+        "pos": "+=1.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>B</span></bdi></div><div><span>A</span><span>N</span></div><div><span>A</span><span>N</span></div><div><bdi><span>A</span><span>N</span><span>A</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.6",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill" : [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "left",
+        "sound": "b",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "ana",
+        "pos": "+=0.4"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "Sun",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.6",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromRight",
+        "duration": 1,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>Sun</span></bdi></div><div><span>sun</span></div><div><span>sun</span></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.4",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "sun",
+        "pos": "+=0.2"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromRight",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>B</span><span>e</span><span>e</span><span>r</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0",
+          "posOut": "+=0.6",
+          "color": "#ffffff",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>m</span><span>u</span><span>g</span><span>?</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.6",
+          "posOut": "+=1.2",
+          "color": "#ffffff",
+          "bgColor": "#1b1b1b",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>Th</span><span>at</span><span>’s</span></div><div><span>the</span></div><div><span>de</span><span>si</span><span>gn</span><span>er</span></div><div><bdi><span>DR</span><span>UG.</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "drug",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Popsicle</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateX",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.6",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scaleInit": 1,
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<div><bdi><span>Dr</span><span>ops</span></bdi></div><div><span>are</span></div><div><bdi><span>un</span><span>st</span><span>op</span><span>pa</span><span>ble</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0.6",
+          "posOut": "+=2.2",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "drops",
+        "pos": "+=0.7"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "unstoppable",
+        "pos": "+=1.2"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>D</span><span>o</span><span>n</span><span>’</span><span>t</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>b</span><span>e</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>l</span><span>a</span><span>t</span><span>e</span><span>r</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.9",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>ALLI</span></bdi><span>GATOR</span></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateX",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scaleInit": 2,
+          "scale": 2
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#FFFFFF",
+        "position": "left",
+        "sound": "alligator",
+        "pos": "+=0.1"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>Ca</span><span>ll</span></div><div><span>the</span></div><div><bdi><span>wa</span><span>it</span><span>er.</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#000000",
+          "bgColor": ["#ffffff"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "waiter",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>Y</span><span>o</span><span>u’</span><span>r</span><span>e</span></div><div><bdi><span>o</span><span>l</span><span>d</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#000000",
+          "bgColor": ["#ffffff"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "#ffffff",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "old",
+        "pos": "+=0.5"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>W</span><span>e</span><span>’</span><span>r</span><span>e</span></bdi></div><div><span>n</span><span>o</span><span>t.</span></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.65",
+          "color": "#ffffff",
+          "bgColor": ["#000000"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "left",
+        "sound": "we_re",
+        "pos": "+=0.2"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>Summer</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.4",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>summer</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.4",
+          "posOut": "+=0.8",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>beat</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0.8",
+          "posOut": "+=1.2",
+          "color": "#FFFFFF",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>my</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=1.2",
+          "posOut": "+=1.6",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>drummer</span>",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=1.6",
+          "posOut": "+=2",
+          "color": "#FFFFFF",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0.1",
+        "bgColor": "#ffffff"
+      },
+      {
+        "name": "recolorFromCenter",
+        "duration": 1,
+        "pos": "+=0.4"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r</span></div><div><bdi><span>C</span><span>l</span><span>u</span><span>b</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.5",
+          "color": "#ffffff",
+          "bgColor": ["#000000"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "beat",
+        "pos": "+=0.55"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromRight",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "#000000",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>i</span><span>s</span><span>n’</span><span>t</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.45",
+          "posOut": "+=0.9",
+          "color": "#ffffff",
+          "bgColor": "#1b1b1b",
+          "scale": 1
+        }
+      },
+      {
+        "nodes": "<span>o</span><span>v</span><span>e</span><span>r</span>",
+        "type": "text--column-rotation",
+        "animation": {
+          "init": "ROTATION",
+          "in": "rotateIn",
+          "out": "rotateOut",
+          "posIn": "+=0.9",
+          "posOut": "+=1.35",
+          "color": "#ffffff",
+          "bgColor": "#2c2c2c",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromCenter",
+        "duration": 0.5,
+        "pos": "+=0"
+      },
+      {
+        "name": "zoomIn",
+        "duration": 0.5,
+        "pos": "+=0.1"
+      }
+    ],
+    "animationTexts": [
+      {
+        "nodes": "<div><bdi><span>U</span><span>n</span><span>t</span><span>i</span><span>l</span></bdi></div><div><span>w</span><span>e</span></div><div><span>s</span><span>a</span><span>y</span></div><div><bdi><span>s</span><span>o</span></bdi></div>",
+        "type": "text--close-column",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroup",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#000000",
+          "bgColor": ["#ffffff", "#EEF0F2", "#D9DBDC", "#cccccc"]
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "left",
+        "sound": "until",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#000000",
+        "position": "right",
+        "sound": "so",
+        "pos": "+=0.7"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "Counterpoint!",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateX",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.7",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scaleInit": 1,
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>T</span><span>h</span><span>a</span><span>t’</span><span>s</span></bdi></div><div><span>n</span><span>o</span><span>t</span></div><div><span>m</span><span>y</span></div><div><bdi><span>k</span><span>i</span><span>n</span><span>d</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "ALPHA",
+          "in": "staggerInGroupZoom",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=1.8",
+          "color": "#ffffff",
+          "bgColor": ["#000000"],
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "left",
+        "sound": "thats",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#ffffff",
+        "position": "right",
+        "sound": "kind",
+        "pos": "+=0.6"
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "Summer",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#000000"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "is",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "setInstantColor",
+        "duration": 1,
+        "pos": "+=0",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "our",
+        "type": "text--box",
+        "animation": {
+          "init": "ZOOMBIG",
+          "in": "zoomIn",
+          "out": "removeNode",
+          "posIn": "+=0",
+          "posOut": "+=0.45",
+          "color": "#000000",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ]
+  },
+  {
+    "animationBg": [
+      {
+        "name": "recolorFromLeft",
+        "duration": 1,
+        "pos": "+=0"
+      }
+    ],
+    "animationTexts" : [
+      {
+        "nodes": "<div><bdi><span>S</span><span>T</span><span>A</span><span>T</span><span>E</span></bdi></div><div><span>O</span><span>F</span></div><div><bdi><span>M</span><span>I</span><span>N</span><span>D.</span></bdi></div>",
+        "type": "text--box",
+        "animation": {
+          "init": "TRANSLATEX",
+          "in": "translateXStagger",
+          "out": "removeNode",
+          "posIn": "+=0.1",
+          "posOut": "+=3",
+          "color": "#ffffff",
+          "bgColor": "transparent",
+          "scale": 1
+        }
+      }
+    ],
+    "animationFill": [
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#FFFFFF",
+        "position": "left",
+        "sound": "state",
+        "pos": "+=0.1"
+      },
+      {
+        "colorStart": "transparent",
+        "colorEnd": "#FFFFFF",
+        "position": "right",
+        "sound": "mind",
+        "pos": "+=0.8"
+      }
+    ]
+  }
+]
